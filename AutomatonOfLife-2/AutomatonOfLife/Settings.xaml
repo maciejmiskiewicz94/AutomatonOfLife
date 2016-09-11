@@ -1,0 +1,97 @@
+﻿<Window x:Class="AutomatonOfLife.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutomatonOfLife"
+        mc:Ignorable="d"
+        Title="Settings" Height="700" Width="1400">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,50">If a cell has</TextBlock>
+        <ComboBox SelectedIndex="0" Name="qtycombo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="207,50,0,0">
+
+            <ComboBoxItem>1</ComboBoxItem>
+            <ComboBoxItem>2</ComboBoxItem>
+            <ComboBoxItem>3</ComboBoxItem>
+            <ComboBoxItem>4</ComboBoxItem>
+            <ComboBoxItem>5</ComboBoxItem>
+            <ComboBoxItem>6</ComboBoxItem>
+            <ComboBoxItem>7</ComboBoxItem>
+            <ComboBoxItem>8</ComboBoxItem>
+            <ComboBoxItem>9</ComboBoxItem>
+            <ComboBoxItem>10</ComboBoxItem>
+            <ComboBoxItem>11</ComboBoxItem>
+            <ComboBoxItem>12</ComboBoxItem>
+            <ComboBoxItem>13</ComboBoxItem>
+            <ComboBoxItem>14</ComboBoxItem>
+            <ComboBoxItem>15</ComboBoxItem>
+            <ComboBoxItem>16</ComboBoxItem>
+            <ComboBoxItem>17</ComboBoxItem>
+            <ComboBoxItem>18</ComboBoxItem>
+            <ComboBoxItem>19</ComboBoxItem>
+            <ComboBoxItem>20</ComboBoxItem>
+            <ComboBoxItem>21</ComboBoxItem>
+            <ComboBoxItem>22</ComboBoxItem>
+            <ComboBoxItem>23</ComboBoxItem>
+            <ComboBoxItem>24</ComboBoxItem>
+
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="264,50,0,0">neighbors of state</TextBlock>
+        <ComboBox SelectedIndex="0" Name="statecombo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="365,50,0,0">
+            <ComboBoxItem>Idle</ComboBoxItem>
+            <ComboBoxItem>Living</ComboBoxItem>
+            <ComboBoxItem>Dead</ComboBoxItem>
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="429,50,0,0">, it becomes</TextBlock>
+        <ComboBox SelectedIndex="0" Name="choicecombo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="498,50,0,0">
+            <ComboBoxItem>Idle</ComboBoxItem>
+            <ComboBoxItem>Living</ComboBoxItem>
+            <ComboBoxItem>Dead</ComboBoxItem>
+        </ComboBox>
+        <DataGrid Name="rulesgrid" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,90" Height="400" Width="400" IsReadOnly="True">
+
+
+        </DataGrid>
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="790,50,0,0">Visual editor of rules</TextBlock>
+
+        <Button Name="loadrulesbut" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="904,50,0,0" Content="Load rules" Width="100" Click="loadrulesbut_Click"></Button>
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="498,434,0,0">Cell should become</TextBlock>
+        <Button Name="applyrulesbut" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,550,0,0" Content="Apply" Click="applyrulesbut_Click"></Button>
+        <ComboBox SelectedIndex="0" Name="choicecombo1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="623,434,0,0">
+            <ComboBoxItem>Idle</ComboBoxItem>
+            <ComboBoxItem>Living</ComboBoxItem>
+            <ComboBoxItem>Dead</ComboBoxItem>
+        </ComboBox>
+        <Button Content="Add rule" Name="visualrulebut" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="688,434,0,0" Click="visualrulebut_Click"></Button>
+        <Canvas Name="buttongrid" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="498,134,0,0" Height="250" Width="250"></Canvas>
+        <Button Content="Add rule" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="648,46,0,0" Click="Button_Click"></Button>
+        <ComboBox SelectedIndex="2" Name="morelesscombo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="122,50,0,0">
+
+            <ComboBoxItem Content="morethan"/>
+            <ComboBoxItem Content="less than"/>
+            <ComboBoxItem Content="exactly"/>
+        </ComboBox>
+        <Button Content="Save rules" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="555,75,0,0" Name="saverulesbut" Click="saverulesbut_Click"/>
+        <Canvas Name="buttongrid1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="900,135,0,0" Height="150" Width="150"/>
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="900,311,0,0"><Run Text="Cell should become"/></TextBlock>
+        <ComboBox SelectedIndex="0" x:Name="choicecombo1rule1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1025,311,0,0">
+            <ComboBoxItem Content="Idle"/>
+            <ComboBoxItem Content="Living"/>
+            <ComboBoxItem Content="Dead"/>
+        </ComboBox>
+        <Button Content="Add rule" Name="visualrule1but" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1090,311,0,0" Click="visualrule1but_Click" />
+        <Canvas Name="buttongrid2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="900,374,0,0" Height="150" Width="150"/>
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="900,550,0,0"><Run Text="Cell should become"/></TextBlock>
+        <ComboBox SelectedIndex="0" x:Name="choicecombo1rule2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1025,550,0,0">
+            <ComboBoxItem Content="Idle"/>
+            <ComboBoxItem Content="Living"/>
+            <ComboBoxItem Content="Dead"/>
+        </ComboBox>
+        <Button Content="Add rule" Name="visualrule2but" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1090,550,0,0" Click="visualrule2but_Click" />
+        <ComboBox SelectedIndex="0" Name="typeecombo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="570,50,0,0">
+            <ComboBoxItem Content="Type 1"/>
+            <ComboBoxItem Content="Type 2"/>
+            <ComboBoxItem Content="Type 3"/>
+        </ComboBox>
+    </Grid>
+</Window>

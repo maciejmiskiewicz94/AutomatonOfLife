@@ -1,0 +1,14 @@
+C:\Users\Maciek\documents\visual studio 2015\Projects\AutomatonOfLife\Rulesclass\bin\Debug\Rulesclass.dll
+C:\Users\Maciek\documents\visual studio 2015\Projects\AutomatonOfLife\Rulesclass\bin\Debug\Rulesclass.pdb
+C:\Users\Maciek\documents\visual studio 2015\Projects\AutomatonOfLife\Rulesclass\obj\Debug\Rulesclass.dll
+C:\Users\Maciek\documents\visual studio 2015\Projects\AutomatonOfLife\Rulesclass\obj\Debug\Rulesclass.pdb
+E:\format\Project individual\AutomatonOfLife-2\Rulesclass\bin\Debug\Rulesclass.dll
+E:\format\Project individual\AutomatonOfLife-2\Rulesclass\bin\Debug\Rulesclass.pdb
+E:\format\Project individual\AutomatonOfLife-2\Rulesclass\obj\Debug\Rulesclass.csprojResolveAssemblyReference.cache
+E:\format\Project individual\AutomatonOfLife-2\Rulesclass\obj\Debug\Rulesclass.dll
+E:\format\Project individual\AutomatonOfLife-2\Rulesclass\obj\Debug\Rulesclass.pdb
+C:\Users\Maciej\Desktop\AutomatonOfLife-2\Rulesclass\bin\Debug\Rulesclass.dll
+C:\Users\Maciej\Desktop\AutomatonOfLife-2\Rulesclass\bin\Debug\Rulesclass.pdb
+C:\Users\Maciej\Desktop\AutomatonOfLife-2\Rulesclass\obj\Debug\Rulesclass.csprojResolveAssemblyReference.cache
+C:\Users\Maciej\Desktop\AutomatonOfLife-2\Rulesclass\obj\Debug\Rulesclass.dll
+C:\Users\Maciej\Desktop\AutomatonOfLife-2\Rulesclass\obj\Debug\Rulesclass.pdb
